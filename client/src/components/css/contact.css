@@ -1,0 +1,14 @@
+.contact{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: wheat;
+    width: 700px;
+    margin: 5px auto;
+    
+}
+
+.contact p{
+    margin: 20px 40px;
+    font-size: 25px;
+}
