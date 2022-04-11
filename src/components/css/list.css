@@ -1,0 +1,16 @@
+.class-list{
+    background-color: cadetblue;
+    width: 500px;
+    margin: 1.5rem auto;
+    
+}
+
+.class-list:hover{
+    border: 1px solid black;
+    box-shadow: 20;
+    
+}
+.class-list img{
+    border-radius: 50%;
+    border: 2px solid green;
+}

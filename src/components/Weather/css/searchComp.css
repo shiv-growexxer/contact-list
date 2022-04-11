@@ -1,0 +1,16 @@
+.search{
+    height: 200px;
+    background-color: #00203FFF;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.search input,button{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.search input{
+    width: 350px;
+}

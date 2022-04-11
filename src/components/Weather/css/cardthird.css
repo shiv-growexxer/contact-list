@@ -1,0 +1,22 @@
+.light,.dark {
+
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 8px;
+}
+
+
+.light{
+    background-color: yellow;
+    color: black;
+}
+
+.dark{
+
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,49 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 700px;
+}
+
+.card .card-inner{
+    width: 600px;
+    background-color: #ADEFD1FF; 
+    border-radius: 10px;
+}
+
+.card .card-inner .first,.third{
+    height: 160px;
+    
+}
+
+.card .card-inner .third,.second,.first,.left,.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card .card-inner .second{
+    background-color: black;
+    color: wheat;
+    font-size: 30px;
+}
+
+.card .card-inner .second .left,.right{
+    width: 50%;
+    height: 160px;
+}
+
+.card .card-inner .second .left{
+    background-color: yellow;
+    color: black;
+}
+
+.card .card-inner .second .left .temp{
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+.card .card-inner .second .left .location{
+    font-size: 20px;
+}
